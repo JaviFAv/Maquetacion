@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerMain {
+    display: flex;
+    height: 90vh;
+    width: 33vw;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 10px solid #E5E3E5;
+    gap: 0.2em;
+    padding: 0.2em;
+}
+
+header {
+    height: 15%;
+    width: 100%;
+    border-radius: 10px;
+    border: 4px solid #A9E1A5;
+    gap: 0.2em;
+    padding: 0.2em;
+
+}
+
+nav {
+    height: 10%;
+    width: 100%;
+    border-radius: 10px;
+    border: 4px solid #CAA8B5;
+    gap: 0.2em;
+    padding: 0.2em;
+
+}
+
+.divMedio {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 0.2em;
+
+}
+
+article {
+    height: 100%;
+    width: 70%;
+    border-radius: 10px;
+    border: 4px solid #519EC0;
+    gap: 0.2em;
+    padding: 0.2em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.divSide {
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    border: 4px solid #DBD7C5;
+    gap: 0.2em;
+    padding: 0.2em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+aside {
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    border: 4px solid #66D7D5;
+    gap: 0.2em;
+    padding: 0.2em;
+}
+
+.divAbajo {
+    height: 100%;
+    width: 100%;
+    gap: 0.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+section {
+    height: 15%;
+    width: 100%;
+    border-radius: 10px;
+    border: 4px solid #B568AF;
+    gap: 0.2em;
+    padding: 0.2em;
+
+}
+
+footer {
+    height: 10%;
+    width: 100%;
+    border-radius: 10px;
+    border: 4px solid #DEDEB4;
+    gap: 0.2em;
+    padding: 0.2em;
+
+}
