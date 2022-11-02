@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Agencia de viajes</title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -21,11 +22,10 @@
 
         <div class="landing">
             <div class="centerDiv">
-                <p class="centerText">Nuestro empresa es una de las mejores del sector combinando distintas ofertas para
+                <p id="centerText">Nuestro empresa es una de las mejores del sector combinando distintas ofertas para
                     adaptarse lo mejor posible al cliente, gran experiencia con grupos amplios</p>
             </div>
         </div>
-
         <div class="ofertas">
             <div class="imgOferta">
                 <img src="ofertas.jpg">
@@ -41,7 +41,7 @@
                 <p>
                     <label for="origen">Origen
                     </label><br>
-                    <input type="text" name="introducir_origen" id="nombre" placeholder="Escribe el origen">
+                    <input type="text" name="introducir_origen" id="origen" placeholder="Escribe el origen">
                 </p><br>
                 <p>
                     <label for="destino">Destino
@@ -59,10 +59,10 @@
                     </label><br>
                     <input type="text" name="introducir_fecha" id="fecha" placeholder="Escribe la fecha">
                 </p><br>
-                <button type="submit" name="solicitar informacion" id="solicitar">
+                <button type="button" name="solicitar informacion" id="solicitar" onclick="solicitarInfo()">
                     <p>Solicitar informacion</p>
                 </button>
-                <button type="button" name="filtrar" id="filtrar">
+                <button type="button" name="filtrar" id="filtrar" onclick="filtrarInfo()">
                     <p>Filtrar</p>
                 </button>
             </form>
