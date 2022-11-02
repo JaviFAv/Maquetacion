@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    height: 200px;
+}
+
+.secHeader {
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9FB6A7;
+    color: white;
+    font-size: xx-large;
+}
+
+.centerDiv {
+    width: 50%;
+}
+
+.ofertas {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9FB6A7;
+    color: white;
+    font-size: larger;
+}
+
+.imgOferta {
+    height: 50vh;
+    width: 50vh;
+
+}
+
+
+.formulario {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9FB6A7;
+}
