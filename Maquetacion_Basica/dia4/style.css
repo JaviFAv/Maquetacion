@@ -1,0 +1,231 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+
+    font-weight: bolder;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+input {
+    width: 300px;
+    height: 30px
+}
+
+main {
+    height: 100vh;
+}
+
+.imgHeader {
+    width: 3%;
+}
+
+header {
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+
+header>a:hover {
+    scale: 1.5;
+    transition: scale 0.5s;
+}
+
+.landing {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+.centerDiv {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.hola {
+    width: 50%;
+    height: 50%;
+    background-color: #FF8000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.hola:hover {
+    background-color: #57C5E7;
+    transition: background-color 0.5s;
+}
+
+.hola:hover::after {
+    content: "Estoy estudiando para FullStack Developer";
+    background-color: #3486D9;
+    transition: background-color 0.5s;
+    display: flex;
+    border-radius: 20px;
+}
+
+.hola:hover::before {
+    content: "Realizando el bootcamp de codenotch";
+    background-color: #3486D9;
+    transition: background-color 0.5s;
+    display: flex;
+    border-radius: 20px;
+}
+
+.descripcion {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.info {
+    height: 70%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid #010456;
+}
+
+.info:hover {
+    background-color: black;
+    color: white;
+    border: 10px solid #57C5E7;
+    transition: border 0.5s;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+
+}
+
+.imgDescripcion {
+    height: 200px;
+
+}
+
+.tecnologias {
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.icono {
+    height: 300px;
+    width: 300px;
+}
+
+.icono>p {
+    opacity: 0;
+}
+
+.icono:hover>p {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.proyectos {
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.proyecto {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logosProyecto {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.proyecto>.logosProyecto {
+    opacity: 0;
+}
+
+.proyecto:hover>.logosProyecto {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.contacto {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+footer {
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+
+}
